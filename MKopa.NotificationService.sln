@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSNotificationService", "SMSNotificationService\SMSNotificationService.csproj", "{E5D04B62-ADD3-40E0-93D4-21BEDC6D5300}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMSNotificationService", "SMSNotificationService\SMSNotificationService.csproj", "{E5D04B62-ADD3-40E0-93D4-21BEDC6D5300}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageBusConnection", "MessageBoxConnection\MessageBusConnection.csproj", "{6845A149-5980-4966-A1FA-AD7D7E33AC12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageBusConnection", "MessageBoxConnection\MessageBusConnection.csproj", "{6845A149-5980-4966-A1FA-AD7D7E33AC12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmsDomain", "SmsDomain\SmsDomain.csproj", "{5DB7C50F-3A44-43DC-ADCF-A43C27A9B96A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmsDomain", "SmsDomain\SmsDomain.csproj", "{5DB7C50F-3A44-43DC-ADCF-A43C27A9B96A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmsCore", "SmsCore\SmsCore.csproj", "{7E84FEB0-C2DD-4A02-9B26-CBED61C048D8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmsCore", "SmsCore\SmsCore.csproj", "{7E84FEB0-C2DD-4A02-9B26-CBED61C048D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmsServiceTest", "SmsServiceTest\SmsServiceTest.csproj", "{3AADE2AF-AF51-494A-A017-1E892F7DD597}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{7E84FEB0-C2DD-4A02-9B26-CBED61C048D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E84FEB0-C2DD-4A02-9B26-CBED61C048D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E84FEB0-C2DD-4A02-9B26-CBED61C048D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AADE2AF-AF51-494A-A017-1E892F7DD597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AADE2AF-AF51-494A-A017-1E892F7DD597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AADE2AF-AF51-494A-A017-1E892F7DD597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AADE2AF-AF51-494A-A017-1E892F7DD597}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
