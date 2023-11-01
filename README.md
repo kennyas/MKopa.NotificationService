@@ -2,7 +2,7 @@
 
 ### The microservice serves as an sms wrapper service, listening to a published event via RabbitMq, then sending the message to the sms providers using a strategy pattern to determine which sms provider to use based on the phone number country code configuration.
 
-### This service gets the work done but it could be better refactored by creating a data store to save already sent sms, then the service checks the database for the client request id of the message event picked in order to ensure no duplicate messages are being sent. This could not be implemented due to the time alloted to this task.d optimise server resources usage.
+### This service gets the work done but it could be better refactored by creating a data store to save already sent sms, then the service checks the database for the client request id of the message event picked in order to ensure no duplicate messages are being sent. This could not be implemented due to the time alloted to this task.
 
 ## This project is built with C# programming language, on a .NET 6 Framework
 
