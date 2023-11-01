@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MessageBoxConnection\MessageBusConnection.csproj" />
+    <ProjectReference Include="..\MessageBusConnection\MessageBusConnection.csproj" />
     <ProjectReference Include="..\SmsCore\SmsCore.csproj" />
   </ItemGroup>
 

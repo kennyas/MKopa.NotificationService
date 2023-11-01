@@ -27,7 +27,7 @@ namespace MessageBusConnection.ServiceExtension
             }
             catch (Exception exception)
             {
-                _logger.LogError(exception, "Occured in SendSmsConsumer...");
+                _logger.LogError(exception, " Error Occured in SendSmsConsumer...");
                 throw;
             }
         }

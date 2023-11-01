@@ -5,7 +5,7 @@ VisualStudioVersion = 17.6.33712.159
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMSNotificationService", "SMSNotificationService\SMSNotificationService.csproj", "{E5D04B62-ADD3-40E0-93D4-21BEDC6D5300}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageBusConnection", "MessageBoxConnection\MessageBusConnection.csproj", "{6845A149-5980-4966-A1FA-AD7D7E33AC12}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageBusConnection", "MessageBusConnection\MessageBusConnection.csproj", "{6845A149-5980-4966-A1FA-AD7D7E33AC12}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SmsDomain", "SmsDomain\SmsDomain.csproj", "{5DB7C50F-3A44-43DC-ADCF-A43C27A9B96A}"
 EndProject
